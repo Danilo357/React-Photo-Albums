@@ -2,11 +2,34 @@
   "users": [
     {
       "id": 1,
-      "name": "Ryan"
+      "name": "Horse"
     },
     {
-      "name": "Mike",
-      "id": 2
+      "id": 2,
+      "name": "Tiger"
+    },
+    {
+      "id": 3,
+      "name": "Elephant"
+    },
+    {
+      "id": 4,
+      "name": "Lion"
+    },
+    {
+      "id": 5,
+      "name": "Giraffe"
+    },
+    {
+      "id": 6,
+      "h": "Zebra",
+      "name": "https://www.pexels.com/photo/brown-and-white-horse-standing-on-green-grass-under-blue-sky-during-daytime-209065/"
+    }
+  ],
+
+  "pictures": [
+    {
+      "url": "https://www.pexels.com/photo/brown-and-white-horse-standing-on-green-grass-under-blue-sky-during-daytime-209065/"
     }
   ]
 }
