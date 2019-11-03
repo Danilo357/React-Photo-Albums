@@ -10,10 +10,9 @@ function App(promp) {
   return (
     <Router>
       <div>
-        <Route path="/users/:id" />
         <Route exact path="/" component={Home}></Route>
         <Route path="/album/:id" component={Album}></Route>
-        <Route path="/pictures" component={Pictures}></Route>
+        <Route path="/pictures/:id" component={Pictures}></Route>
       </div>
     </Router>
   )

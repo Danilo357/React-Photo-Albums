@@ -1,35 +1,287 @@
 {
-  "users": [
+  "albums": [
     {
       "id": 1,
-      "name": "Horse"
+      "name": "Snakes",
+      "url": "https://cdn.pixabay.com/photo/2016/06/03/12/11/snake-1433275_1280.jpg"
     },
     {
       "id": 2,
-      "name": "Tiger"
+      "name": "Tigers",
+      "url": "https://cdn.pixabay.com/photo/2015/01/07/11/31/tiger-591359_1280.jpg"
     },
     {
       "id": 3,
-      "name": "Elephant"
+      "name": "Elephants",
+      "url": "https://cdn.pixabay.com/photo/2013/05/17/07/12/elephant-111695_1280.jpg"
     },
     {
       "id": 4,
-      "name": "Lion"
+      "name": "Lions",
+      "url": "https://cdn.pixabay.com/photo/2016/08/19/13/48/lion-1605295_1280.jpg"
     },
     {
       "id": 5,
-      "name": "Giraffe"
+      "name": "Giraffes",
+      "url": "https://cdn.pixabay.com/photo/2019/07/27/06/21/rothschild-giraffe-4366005_1280.jpg"
     },
     {
       "id": 6,
-      "h": "Zebra",
-      "name": "https://www.pexels.com/photo/brown-and-white-horse-standing-on-green-grass-under-blue-sky-during-daytime-209065/"
+      "name": "Zebras",
+      "url": "https://cdn.pixabay.com/photo/2019/06/07/19/20/zebra-4258909_1280.jpg"
     }
   ],
 
-  "pictures": [
+  "photos": [
     {
-      "url": "https://www.pexels.com/photo/brown-and-white-horse-standing-on-green-grass-under-blue-sky-during-daytime-209065/"
+      "id": 1,
+      "name": "Snakes: Rattle-snake-Viper",
+      "url": "https://cdn.pixabay.com/photo/2015/02/28/15/25/rattlesnake-653642_1280.jpg",
+      "albumId": 1
+    },
+
+    {
+      "id": 2,
+      "name": "Snakes: King-cobra",
+      "url": "https://cdn.pixabay.com/photo/2014/07/30/19/28/king-cobra-405623_1280.jpg",
+      "albumId": 1
+    },
+
+    {
+      "id": 3,
+      "name": "Snakes: Natter-corn-snake",
+      "url": "https://cdn.pixabay.com/photo/2015/05/21/13/39/snake-777197_1280.jpg",
+      "albumId": 1
+    },
+
+    {
+      "id": 4,
+      "name": "Snakes: Grass-snake",
+      "url": "https://cdn.pixabay.com/photo/2017/05/07/09/03/snake-2291913_1280.jpg",
+      "albumId": 1
+    },
+
+    {
+      "id": 5,
+      "name": "Snakes: Green-pithon",
+      "url": "https://cdn.pixabay.com/photo/2019/04/04/04/39/snake-4101998_1280.jpg",
+      "albumId": 1
+    },
+
+    {
+      "id": 6,
+      "name": "Snakes: Burmese-pithon",
+      "url": "https://cdn.pixabay.com/photo/2016/08/04/15/42/burmese-python-1569314_1280.jpg",
+      "albumId": 1
+    },
+
+    {
+      "id": 7,
+      "name": "Tiger-1",
+      "url": "https://cdn.pixabay.com/photo/2015/01/07/11/31/tiger-591359_1280.jpg",
+      "albumId": 2
+    },
+
+    {
+      "id": 8,
+      "name": "Tiger-2",
+      "url": "https://cdn.pixabay.com/photo/2014/10/23/18/56/tiger-500118_1280.jpg",
+      "albumId": 2
+    },
+
+    {
+      "id": 9,
+      "name": "Tiger-3",
+      "url": "https://cdn.pixabay.com/photo/2016/01/19/17/04/bengal-tiger-1149535_1280.jpg",
+      "albumId": 2
+    },
+
+    {
+      "id": 10,
+      "name": "Tiger-4",
+      "url": "https://cdn.pixabay.com/photo/2017/01/11/19/50/tiger-1972731_1280.jpg",
+      "albumId": 2
+    },
+
+    {
+      "id": 11,
+      "name": "Tiger-5",
+      "url": "https://cdn.pixabay.com/photo/2015/10/14/14/26/tiger-987684_1280.jpg",
+      "albumId": 2
+    },
+
+    {
+      "id": 12,
+      "name": "Tiger-6",
+      "url": "https://cdn.pixabay.com/photo/2017/07/24/19/57/tiger-2535888_1280.jpg",
+      "albumId": 2
+    },
+
+    {
+      "id": 13,
+      "name": "Elephant-1",
+      "url": "https://cdn.pixabay.com/photo/2013/05/17/07/12/elephant-111695_1280.jpg",
+      "albumId": 3
+    },
+
+    {
+      "id": 14,
+      "name": "Elephant-2",
+      "url": "https://images.unsplash.com/photo-1557505752-714474de474f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1334&q=80",
+      "albumId": 3
+    },
+
+    {
+      "id": 15,
+      "name": "Elephant-3",
+      "url": "https://images.unsplash.com/photo-1430514731097-e2d6deb9ebd6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "albumId": 3
+    },
+
+    {
+      "id": 16,
+      "name": "Elephant-4",
+      "url": "https://images.unsplash.com/reserve/RFDKkrvXSHqBaWMMl4W5_Heavy%20company%20by%20Alessandro%20Desantis%20-%20Downloaded%20from%20500px_jpg.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "albumId": 3
+    },
+
+    {
+      "id": 17,
+      "name": "Elephant-5",
+      "url": "https://images.unsplash.com/photo-1551356277-dbb545a2d493?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1347&q=80",
+      "albumId": 3
+    },
+
+    {
+      "id": 18,
+      "name": "Elephant-6",
+      "url": "https://images.unsplash.com/photo-1544945500-d5acd9ae5e04?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "albumId": 3
+    },
+
+    {
+      "id": 19,
+      "name": "Lion-1",
+      "url": "https://cdn.pixabay.com/photo/2017/01/11/20/09/lion-1972771_1280.jpg",
+      "albumId": 4
+    },
+
+    {
+      "id": 20,
+      "name": "Lion-2",
+      "url": "https://cdn.pixabay.com/photo/2016/11/22/19/14/animal-1850112_1280.jpg",
+      "albumId": 4
+    },
+
+    {
+      "id": 21,
+      "name": "Lion-3",
+      "url": "https://cdn.pixabay.com/photo/2014/12/12/19/43/lion-565818_1280.jpg",
+      "albumId": 4
+    },
+
+    {
+      "id": 22,
+      "name": "Lion-4",
+      "url": "https://cdn.pixabay.com/photo/2016/01/15/08/55/lion-1141303_1280.jpg",
+      "albumId": 4
+    },
+
+    {
+      "id": 23,
+      "name": "Lion-5",
+      "url": "https://cdn.pixabay.com/photo/2016/08/19/13/48/lion-1605295_1280.jpg",
+      "albumId": 4
+    },
+
+    {
+      "id": 24,
+      "name": "Lion-6",
+      "url": "https://cdn.pixabay.com/photo/2016/11/19/16/09/lion-1840092_1280.jpg",
+      "albumId": 4
+    },
+    {
+      "id": 25,
+      "name": "Giraffe-1",
+      "url": "https://cdn.pixabay.com/photo/2019/07/27/06/21/rothschild-giraffe-4366005_1280.jpg",
+      "albumId": 5
+    },
+
+    {
+      "id": 26,
+      "name": "Giraffe-2",
+      "url": "https://cdn.pixabay.com/photo/2017/03/31/15/41/giraffe-2191662_1280.jpg",
+      "albumId": 5
+    },
+
+    {
+      "id": 27,
+      "name": "Giraffe-3",
+      "url": "https://cdn.pixabay.com/photo/2015/11/06/17/22/giraffe-1029795_1280.jpg",
+      "albumId": 5
+    },
+
+    {
+      "id": 28,
+      "name": "Giraffe-4",
+      "url": "https://cdn.pixabay.com/photo/2019/09/23/20/47/giraffe-4499694_1280.jpg",
+      "albumId": 5
+    },
+
+    {
+      "id": 29,
+      "name": "Giraffe-5",
+      "url": "https://cdn.pixabay.com/photo/2017/05/28/21/07/giraffe-2352281_1280.jpg",
+      "albumId": 5
+    },
+
+    {
+      "id": 30,
+      "name": "Giraffe-6",
+      "url": "https://cdn.pixabay.com/photo/2015/09/06/11/43/south-africa-927280_1280.jpg",
+      "albumId": 5
+    },
+
+    {
+      "id": 31,
+      "name": "Zebra-1",
+      "url": "https://cdn.pixabay.com/photo/2019/06/07/19/20/zebra-4258909_1280.jpg",
+      "albumId": 6
+    },
+
+    {
+      "id": 32,
+      "name": "Zebra-2",
+      "url": "https://cdn.pixabay.com/photo/2013/07/16/18/26/south-africa-163052_1280.jpg",
+      "albumId": 6
+    },
+
+    {
+      "id": 33,
+      "name": "Zebra-3",
+      "url": "https://cdn.pixabay.com/photo/2015/01/07/19/37/zebra-591862_1280.jpg",
+      "albumId": 6
+    },
+
+    {
+      "id": 34,
+      "name": "Zebra-4",
+      "url": "https://cdn.pixabay.com/photo/2016/08/22/19/47/zebra-1612782_1280.jpg",
+      "albumId": 6
+    },
+
+    {
+      "id": 35,
+      "name": "Zebra-5",
+      "url": "https://cdn.pixabay.com/photo/2013/01/23/13/49/baby-zebra-75885_1280.jpg",
+      "albumId": 6
+    },
+
+    {
+      "id": 36,
+      "name": "Zebra-6",
+      "url": "https://cdn.pixabay.com/photo/2017/05/04/12/43/zebra-2283914_1280.jpg",
+      "albumId": 6
     }
   ]
 }

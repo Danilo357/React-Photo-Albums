@@ -1,28 +1,55 @@
 import React, { useState, useEffect } from "react"
 import axios from "axios"
-import Pictures from "../components/Pictures"
-import { BrowserRouter as Router, Route, Link } from "react-router-dom"
+import { Link } from "react-router-dom"
+import Home from "../components/Home"
 
-function People(props) {
-  const [user, setUser] = useState([])
+function Album(props) {
+  const [animal, setAnimal] = useState([])
   const id = props.match.params.id
 
   useEffect(() => {
-    axios.get("/users").then(resp => {
-      setUser(resp.data)
+    axios.get("/albums").then(resp => {
+      setAnimal(resp.data)
     })
   }, [])
 
+  const [data, setData] = useState([])
+  const albumId = props.match.params.id
+
+  useEffect(() => {
+    axios.get(`/albums/${albumId}?_embed=photos`).then(resp => {
+      setData(resp.data.photos)
+      console.log(resp.data)
+    })
+  }, [albumId])
+
   return (
-    <div>
-      {user.map(user => (
-        <Link key={"user" + user.id}>
-          <p>{user.name}</p>
-        </Link>
-      ))}
-      <h1>Hello {user.name}</h1>
+    <div className="firstcontainer">
+      <div className="wrap1">
+        {animal.map(user => (
+          <Link to={"/album/" + user.id} key={"user" + animal.id}>
+            {/* <p className="allb">
+              <img className="pic" src={user.url} />
+            </p> */}
+            <p className="albumNames">{user.name}</p>
+          </Link>
+        ))}
+      </div>
+      <div className="container">
+        <div className="wrap">
+          {data.map(i => (
+            <Link to={"/pictures/" + i.id} key={"user" + i.id}>
+              <p className="page2wrap">
+                <img className="pic" src={i.url} />
+              </p>
+              <p className="albumNames">{i.name}</p>
+              {/* <h1>Hello {i.name}</h1> */}
+            </Link>
+          ))}
+        </div>
+      </div>
     </div>
   )
 }
 
-export default People
+export default Album
