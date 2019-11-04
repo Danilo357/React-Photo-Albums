@@ -38,6 +38,7 @@ code {
   justify-content: space-around;
   border: 1px solid black;
   width: 1200px;
+  text-decoration: none;
 }
 
 .picture {
@@ -109,4 +110,8 @@ code {
 .prev:hover,
 .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
+}
+
+a {
+  text-decoration: none;
 }
